@@ -1,8 +1,13 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Tag3 {
+public class JavaArrays {
     public static void main(String[] args) {
+        //aufgabe();
+        bonusAufgabe();
+    }
+
+    public static void bonusAufgabe() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Gib einen Text ein: ");
@@ -15,10 +20,8 @@ public class Tag3 {
             System.out.println(buchstabe);
         }
     }
-}
 
-public class JavaArrays {
-    public static void main(String[] args) {
+    public static void aufgabe() {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         int sum = 0;
