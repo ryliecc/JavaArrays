@@ -1,21 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Tag3 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Gib einen Text ein: ");
-        String text = scanner.nextLine();
-
-        scanner.close();
-
-        for (int i = 0; i < text.length(); i++) {
-            char buchstabe = text.charAt(i);
-            System.out.println(buchstabe);
-        }
-    }
-}
 public class JavaArrays {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
